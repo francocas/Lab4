@@ -4,17 +4,19 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { AdivinarNumComponent } from './adivinar-num/adivinar-num.component';
-import { ClassComponent } from './class/class.component';
+//import { AdivinarNumComponent } from './adivinar-num/adivinar-num.component';
+//import { ClassComponent } from './class/class.component';
+import { AdivinaElNumeroComponent } from './adivina-el-numero/adivina-el-numero.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AdivinarNumComponent,
+    /*AdivinarNumComponent,
     AdivinarNumComponent,
     AdivinarNumComponent,
     ClassComponent,
-    ClassComponent
+    ClassComponent,*/
+    AdivinaElNumeroComponent
   ],
   imports: [
     BrowserModule,

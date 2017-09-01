@@ -1,0 +1,7 @@
+<h1>{{Juego.nombre}}</h1>
+<button (click)="Juego.generarNuevo()">Nuevo</button>
+<input type="number" [(ngModel)]="Juego.numeroIngresado" id="numeroNuevo">
+{{Juego.numeroIngresado}}
+<button (click)="Juego.Verificar()">Verificar</button>
+<p [hidden]="Juego.gano || !Juego.iniciado">No gano</p>
+<p [hidden]="!Juego.gano">Gano</p>
